@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+}
+html, body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: lavender;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bigBox {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 720px;
+    height: 65vh;
+    border-radius: 40px;
+    background-color: white;
+}
+#bigBoxBlue {
+    width: 360px;
+    height: 100%;
+    background-color: #5239f5;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+#bigBoxWhite {
+    width: 360px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.miniBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    margin: 20px 0;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+}
+.circle {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: #3498db;
+    flex-direction: column;
+}
+#Reaction {
+    background-color: #fff6f5;
+}
+#Memory {
+    background-color: #fffbf2;
+}
+#Verbal {
+    background-color: #f2fbfa;
+}
+#Visual {
+    background-color: #f3f3fd;
+}
+#Reaction h3{
+    color: #ff5555;
+}
+#Memory h3{
+    color: #ffb82d;
+}
+#Verbal h3{
+    color: #00bb8f;
+}
+#Visual h3{
+    color: #0f1bbb;
+}
+.svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
