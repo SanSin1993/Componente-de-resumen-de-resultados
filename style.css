@@ -23,8 +23,8 @@ html, body {
     background-color: white;
 }
 #bigBoxBlue {
-    width: 720px;
-    height: 540px;
+    width: 50%;
+    height: 50%;
     background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     display: flex;
     flex-direction: column;
