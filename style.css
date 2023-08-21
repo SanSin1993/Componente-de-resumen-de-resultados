@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
+    font-size: 18px
 }
 html, body {
     height: 100vh;
@@ -16,7 +17,7 @@ html, body {
     align-items: center;
 }
 #bigBox {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 40px rgba(200, 199, 239, 0.2);
     width: 720px;
     height: 540px;
     border-radius: 40px;
@@ -24,21 +25,35 @@ html, body {
 }
 #bigBoxBlue {
     width: 50%;
-    height: 50%;
+    height: 100%;
     background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     display: flex;
     flex-direction: column;
     border-radius: 40px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+#bigBoxBlue > h1{
+    font-size: 25px;
+}
+#bigBoxBlue > *{
+    margin: 20px 0;
 }
 #bigBoxBlue h2{
     color: white;
+    font-size: 70px;
+}
+#bigBoxBlue > h2{
+    font-size: 30px;
+}
+#bigBoxBlue > p{
+    margin-top: 0;
 }
 .circle {
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
     flex-direction: column;
 }
@@ -47,7 +62,6 @@ html, body {
     font-weight: 900;
     color: white;
 }
-
 #bigBoxWhite {
     width: 50%;
     height: 100%;
@@ -60,7 +74,12 @@ html, body {
     border-top-right-radius: 40%;
 }
 #bigBoxWhite h2{
-    align-items:flex-start
+    width: 80%;
+    text-align: start;
+    font-size: 25px;
+}
+#bigBoxWhite p{
+    font-weight: 700;
 }
 #miniBoxes{
     width: 80%;
@@ -76,11 +95,12 @@ html, body {
     height: 40px;
     border-radius: 10px;
 }
-.miniBox div p{
-    font-weight: 900;
-}
+
 .enGris{
-    color: #9495a7;
+    color:grey;
+}
+.enGrisAzulado{
+    color:#c8c7ef;
 }
 .button{
     color: #FFFFFF;
@@ -88,9 +108,7 @@ html, body {
     border-radius: 50px;
     width: 80%;
     height: 60px;
-    justify-content: center;
-    font-size: 18px;
-    
+    justify-content: center;  
 }
 
 #Reaction {
