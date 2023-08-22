@@ -3,19 +3,22 @@
     padding: 0;
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
-    font-size: 18px
+    font-size: 18px;
 }
+
 html, body {
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
     background-color: white;
 }
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #bigBox {
     box-shadow: 20px 20px 40px rgba(200, 199, 239, 0.2);
     width: 720px;
@@ -23,6 +26,7 @@ html, body {
     border-radius: 40px;
     background-color: white;
 }
+
 #bigBoxBlue {
     width: 50%;
     height: 100%;
@@ -32,36 +36,51 @@ html, body {
     border-radius: 40px;
     justify-content: center;
     align-items: center;
-    justify-content: center;
 }
-#bigBoxBlue > h1{
-    font-size: 25px;
-}
+
 #bigBoxBlue > *{
     margin: 20px 0;
 }
-#bigBoxBlue h2{
+
+#text{
+    width: 260px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#bigBoxBlue > h1 {
+    font-size: 25px;
     color: white;
-    font-size: 70px;
 }
-#bigBoxBlue > h2{
+
+#bigBoxBlue > h3 {
     font-size: 30px;
+    color: white;
 }
-#bigBoxBlue > p{
+
+#bigBoxBlue > p {
     margin-top: 0;
+    color: white;
 }
-.circle {
+
+#circle {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.circle h2{
+
+#circle h2 {
     font-size: 60px;
     font-weight: 900;
     color: white;
 }
+
 #bigBoxWhite {
     width: 50%;
     height: 100%;
@@ -73,18 +92,22 @@ html, body {
     border-bottom-right-radius: 40%;
     border-top-right-radius: 40%;
 }
-#bigBoxWhite h2{
+
+#bigBoxWhite h2 {
     width: 80%;
     text-align: start;
     font-size: 25px;
 }
-#bigBoxWhite p{
+
+#bigBoxWhite p {
     font-weight: 700;
 }
-#miniBoxes{
+
+#miniBoxes {
     width: 80%;
     margin-top: 20px;
 }
+
 .miniBox {
     display: flex;
     flex-direction: row;
@@ -96,49 +119,133 @@ html, body {
     border-radius: 10px;
 }
 
-.enGris{
-    color:grey;
+.enGris {
+    color: grey;
 }
-.enGrisAzulado{
-    color:#c8c7ef;
+
+.enGrisAzulado {
+    color: #c8c7ef;
 }
-.button{
-    color: #FFFFFF;
-    background-color: #303B59;
+
+.button {
+    color: #ffffff;
+    background-color: #303b59;
     border-radius: 50px;
     width: 80%;
     height: 60px;
-    justify-content: center;  
+    justify-content: center;
 }
 
 #Reaction {
     background-color: #fff6f5;
 }
+
 #Memory {
     background-color: #fffbf2;
 }
+
 #Verbal {
     background-color: #f2fbfa;
 }
+
 #Visual {
     background-color: #f3f3fd;
 }
-#Reaction h3{
+
+#Reaction h3 {
     color: #ff5555;
 }
-#Memory h3{
+
+#Memory h3 {
     color: #ffb82d;
 }
-#Verbal h3{
+
+#Verbal h3 {
     color: #00bb8f;
 }
-#Visual h3{
+
+#Visual h3 {
     color: #0f1bbb;
 }
-.svg{
+
+.svg {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
 
+/* Estilos para pantallas menores a 768px (móvil) */
+@media (max-width: 767px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bigBox {
+        width: 100%;
+        height: 100%;
+    }
+
+    #bigBoxBlue {
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 30px 30px;
+    }
+
+    #bigBoxBlue > h1 {
+        font-size: 18px;
+        margin: 30px 0 0 0;
+    }
+
+    #bigBoxBlue h3 {
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    #circle {
+
+        width: 140px;
+        height: 140px;
+    }
+
+    #circle h2 {
+        font-size: 60px;
+        margin-bottom: 0;
+        font-weight: 900;
+    }
+
+    #text{
+        width: 260px;
+        height: 30px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    #bigBoxWhite {
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #bigBoxWhite h2 {
+        width: 85%;
+        font-size: 18px;
+    }
+
+    #miniBoxes {
+        width: 85%;
+        margin-top: 0;
+    }
+
+    .logoNombre{
+        display: flex;
+        flex-direction: row; 
+    }
+
+    .button {
+        margin-top: 0;
+        width: 85%;
+    }
+
+}
