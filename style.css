@@ -21,9 +21,9 @@ html, body {
 
 #bigBox {
     box-shadow: 20px 20px 40px rgba(200, 199, 239, 0.2);
-    width: 720px;
-    height: 540px;
-    border-radius: 40px;
+    width: 740px;
+    height: 520px;
+    border-radius: 30px;
     background-color: white;
 }
 
@@ -33,7 +33,7 @@ html, body {
     background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     display: flex;
     flex-direction: column;
-    border-radius: 40px;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -46,28 +46,30 @@ html, body {
     width: 260px;
     height: 30px;
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #bigBoxBlue > h1 {
-    font-size: 25px;
-    color: white;
+    font-size: 23px;
 }
 
 #bigBoxBlue > h3 {
-    font-size: 30px;
+    font-size: 32px;
     color: white;
+    margin: 0;
+
 }
 
 #bigBoxBlue > p {
-    margin-top: 0;
-    color: white;
+    margin-top: 15px;
+    ;
 }
 
 #circle {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    margin-bottom: 30px;
     background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
     display: flex;
     flex-direction: column;
@@ -76,9 +78,14 @@ html, body {
 }
 
 #circle h2 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
     color: white;
+    margin-bottom: -5px;
+}
+
+.enGrisAzulado {
+    color: #beabff; 
 }
 
 #bigBoxWhite {
@@ -96,7 +103,9 @@ html, body {
 #bigBoxWhite h2 {
     width: 80%;
     text-align: start;
-    font-size: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 #bigBoxWhite p {
@@ -105,7 +114,7 @@ html, body {
 
 #miniBoxes {
     width: 80%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .miniBox {
@@ -115,16 +124,12 @@ html, body {
     align-items: center;
     padding: 5px 20px;
     margin: 20px 0;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
 }
 
 .enGris {
     color: grey;
-}
-
-.enGrisAzulado {
-    color: #c8c7ef;
 }
 
 .button {
@@ -200,7 +205,7 @@ html, body {
 
     #bigBoxBlue h3 {
         font-size: 25px;
-        margin: 0 0 10px 0;
+        margin: 0;
     }
 
     #circle {
@@ -220,6 +225,7 @@ html, body {
         height: 30px;
         font-size: 16px;
         margin-bottom: 50px;
+        margin-top: 0;
     }
 
     #bigBoxWhite {
