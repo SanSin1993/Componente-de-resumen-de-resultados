@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <script src="/script.js"></script>
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body class="flex">
@@ -29,7 +27,7 @@
       <h2>Summary</h2>
       <div id="miniBoxes">
         <!-- Reaction -->
-        <div class="miniBox" id="Reaction">
+        <div class="miniBox" id="Reaction" data-category="Reaction">
           <div class="flex logoNombre">
             <img src="assets/images/icon-reaction.svg" alt="" class="svg">     
             <h3>Reaction</h3>
@@ -37,7 +35,7 @@
           <p>80 <span class="enGris">/ 100</span></p>    
         </div>
         <!-- Memory -->
-        <div class="miniBox" id="Memory"> 
+        <div class="miniBox" id="Memory" data-category="Memory"> 
           <div class="flex logoNombre">
             <img src="assets/images/icon-memory.svg" alt="" class="svg">
             <h3>Memory</h3>
@@ -45,7 +43,7 @@
           <p>92 <span class="enGris">/ 100</span></p>     
         </div>
         <!-- Verbal -->
-        <div class="miniBox" id="Verbal">
+        <div class="miniBox" id="Verbal" data-category="Verbal" >
           <div class="flex logoNombre">
             <img src="assets/images/icon-verbal.svg" alt="" class="svg">
             <h3>Verbal</h3>
@@ -53,7 +51,7 @@
           <p>61 <span class="enGris">/ 100</span></p>  
         </div>
         <!-- Visual -->
-        <div class="miniBox" id="Visual">
+        <div class="miniBox" id="Visual" data-category="Visual">
           <div class="flex logoNombre">
             <img src="assets/images/icon-visual.svg" alt="" class="svg">
             <h3>Visual</h3>
@@ -61,7 +59,7 @@
           <p>72 <span class="enGris">/ 100</span></p>
         </div>
       </div>
-      <button class="miniBox button">Continue</button>
+      <button id="loadData" class="miniBox button">Continue</button>
     </div>
   </div>
 </body>

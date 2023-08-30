@@ -1,7 +1,13 @@
-* {
+
+  @font-face {
+    font-family: "HankenGrotesk-VariableFont_wght";
+    src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+  }
+
+  * {
     margin: 0;
     padding: 0;
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: "HankenGrotesk-VariableFont_wght", sans-serif;
     text-align: center;
     font-size: 18px;
 }
@@ -79,7 +85,7 @@ html, body {
 
 #circle h2 {
     font-size: 70px;
-    font-weight: 900;
+    font-weight: "ExtraBold";
     color: white;
     margin-bottom: -5px;
 }
@@ -104,13 +110,9 @@ html, body {
     width: 80%;
     text-align: start;
     font-size: 24px;
-    font-weight: 500;
     margin-top: 10px;
 }
 
-#bigBoxWhite p {
-    font-weight: 700;
-}
 
 #miniBoxes {
     width: 80%;
@@ -126,6 +128,10 @@ html, body {
     margin: 20px 0;
     height: 45px;
     border-radius: 10px;
+}
+
+.miniBox p{
+    font-weight: bold;
 }
 
 .enGris {
@@ -217,7 +223,6 @@ html, body {
     #circle h2 {
         font-size: 60px;
         margin-bottom: 0;
-        font-weight: 900;
     }
 
     #text{

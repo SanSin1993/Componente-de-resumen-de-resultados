@@ -36,7 +36,7 @@ Si desea los archivos de diseño (proporcionamos versiones de Sketch y Figma) pa
 
 Todos los activos necesarios para este proyecto están en la carpeta `/assets`. Las imágenes ya están exportadas para el tamaño de pantalla correcto y optimizadas.
 
-También incluimos archivos de fuentes estáticas y variables para las fuentes requeridas para este proyecto. Puede elegir vincular a Google Fonts o usar los archivos de fuentes locales para alojar las fuentes usted mismo. Tenga en cuenta que hemos eliminado los archivos de fuentes estáticas para los pesos de fuente que no son necesarios para este proyecto.
+También inclvos de fuentes locales para alojar las fuentes usted mismo. Tenga en cuenta uimos archivos de fuentes estáticas y variables para las fuentes requeridas para este proyecto. Puede elegir vincular a Google Fonts o usar los archique hemos eliminado los archivos de fuentes estáticas para los pesos de fuente que no son necesarios para este proyecto.
 
 También hay un archivo `style-guide.md` que contiene la información que necesitará, como la paleta de colores y las fuentes.
 
