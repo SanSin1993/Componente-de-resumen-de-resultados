@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Función para cargar y mostrar los datos
     function loadAndShowData() {
-      fetch('data.json')
+      fetch("./data.json")
         .then(response => response.json())
         .then(data => {
           // Calcular el promedio de los valores de "score"
@@ -38,4 +38,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar evento de clic al botón "Continue"
     document.querySelector('#loadData').addEventListener('click', loadAndShowData);
   });
-  
